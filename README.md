@@ -1,4 +1,6 @@
-# essentials
+# Serverless Store Locator
+
+![store locator preview](./images/store-locator.png)
 
 ## Project setup
 
