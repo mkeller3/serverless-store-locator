@@ -1,4 +1,4 @@
-# Serverless Store Locator
+# [Serverless Store Locator](https://mkeller3.github.io/serverless-store-locator/)
 
 ![store locator preview](./images/store-locator.png)
 
