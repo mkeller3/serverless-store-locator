@@ -13,7 +13,7 @@ export const useLocationsStore = defineStore('locationsStore', () => {
     async function generateStoreLocations(){
         if(storeLocations.value == null){
 
-            const response = await fetch("/geojson/sams_club_locations.geojson");
+            const response = await fetch("geojson/sams_club_locations.geojson");
     
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);

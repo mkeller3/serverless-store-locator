@@ -13,7 +13,7 @@ export const useZipCodeStore = defineStore('zipCodeStore', () => {
     async function generateZipCodeVariables(){
         if(zipCodeMap.value == null){
 
-            const response = await fetch("/geojson/zip_centroids.geojson");
+            const response = await fetch("geojson/zip_centroids.geojson");
     
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
